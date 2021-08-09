@@ -1,0 +1,4 @@
+com/stackroute/userservice/controller/UserControllerTest.class
+com/stackroute/userservice/UserServiceApplicationTests.class
+com/stackroute/userservice/repository/UserRepoTest.class
+com/stackroute/userservice/service/UserServiceImplTest.class

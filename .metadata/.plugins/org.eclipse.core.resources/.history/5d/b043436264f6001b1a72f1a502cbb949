@@ -1,0 +1,24 @@
+package com.example.recommendnService;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+
+
+
+@SpringBootApplication
+@Enable
+public class RecommendnServiceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(RecommendnServiceApplication.class, args);
+	}
+	@Bean
+	public ApiInfo apiInfo() {
+		ApiInfoBuilder infoBuilder = new ApiInfoBuilder();
+		infoBuilder.title("recomendations").version("1.0");
+		
+		return infoBuilder.build();
+	}
+
+}

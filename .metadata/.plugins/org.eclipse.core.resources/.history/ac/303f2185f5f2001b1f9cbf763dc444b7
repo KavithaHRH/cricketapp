@@ -1,0 +1,5 @@
+package com.cricapp.entities;
+
+public class CricketScore {
+
+}

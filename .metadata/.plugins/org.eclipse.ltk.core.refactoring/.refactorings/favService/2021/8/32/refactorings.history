@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;oldMatchUrl&apos; from expression &apos;&quot;http://localhost:8081/cicketmatch/oldmatch&quot;&apos;&#x0A;- Original project: &apos;favService&apos;&#x0A;- Variable name: &apos;oldMatchUrl&apos;&#x0A;- Destination method: &apos;com.favService.controller.FavRestController.submitfavourite()&apos;&#x0A;- Variable expression: &apos;&quot;http://localhost:8081/cicketmatch/oldmatch&quot;&apos;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;oldMatchUrl&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.favService.controller{FavRestController.java" name="oldMatchUrl" replace="true" selection="792 44" stamp="1628317282756" varType="false" version="1.0"/>
+</session>

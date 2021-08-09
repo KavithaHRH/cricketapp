@@ -1,0 +1,20 @@
+package com.favService.entities;
+
+import java.util.Date;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+
+public class favourite {
+	private int matchId;
+	private int userId;
+	private String userName;
+	private Date favDate;
+	private OldMatch oldMatch;
+}
+
+

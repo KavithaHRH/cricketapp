@@ -1,0 +1,17 @@
+package com.stackroute.repository;
+
+import java.util.List;
+
+import org.springframework.stereotype.Repository;
+
+import com.stackroute.model.UpcomingMatch;
+
+@Repository
+public interface MatchRepository  {
+	public  UpcomingMatch findByName(String name);
+	public List<UpcomingMatch> findByTeam1(String teamName);
+	public List<UpcomingMatch> findByTeam2(String teamName);
+	public List<UpcomingMatch> findAllByName(String name);
+	public void save(UpcomingMatch match);
+
+}

@@ -1,0 +1,11 @@
+spring.main.allow-bean-definition-overriding=true
+server.servlet.context-path= /recommend
+spring.data.mongodb.password=root
+spring.data.mongodb.username=root
+
+spring.data.mongodb.host= localhost
+spring.data.mongodb.port=27017
+spring.data.mongodb.database=ust
+spring.data.mongodb.repositories.enabled=true
+
+

@@ -1,0 +1,5 @@
+package com.favService.entities;
+
+public class favourite {
+
+}

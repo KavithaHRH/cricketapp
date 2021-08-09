@@ -1,0 +1,38 @@
+package com.cricapp.entities;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Entity
+@Table(name="table1")
+@Getter
+@Setter
+@NoArgsConstructor
+
+
+public class UpcomingMatch {
+@Id
+@GeneratedValue(strategy=GenerationType.IDENTITY)
+private int id;
+private String team1;
+private String team2;
+private String date;
+private String matchStarted;
+public UpcomingMatch(String team1, String team2, String date, String matchStarted) {
+	super();
+	this.team1 = team1;
+	this.team2 = team2;
+	this.date = date;
+	this.matchStarted = matchStarted;
+}
+}
+public class oldMatch{
+	
+}

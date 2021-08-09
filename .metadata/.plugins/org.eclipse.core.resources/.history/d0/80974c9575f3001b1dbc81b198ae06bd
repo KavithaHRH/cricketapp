@@ -1,0 +1,36 @@
+package com.cricapp.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.cricapp.entities.UpcomingMatch;
+import com.cricapp.service.UpcomingMatchService;
+
+@RestController
+public class UpcomingMatchController {
+	private UpcomingMatchService upcomingMatchService;
+	@Autowired
+	public UpcomingMatchController(UpcomingMatchService upcomingMatchService) {
+		this.upcomingMatchService=upcomingMatchService;
+	}
+	@GetMapping("upcomingmatch")
+	public List<UpcomingMatch> getAll(){
+	   return upcomingMatchService.getAll();
+	}
+	@GetMapping("upcomingmatch/{id}")
+	public UpcomingMatch getAnUpcomingMatch(@PathVariable("id")int upcomingMatchId){
+	   return upcomingMatchService.getUpcomingMatchById(upcomingMatchId);
+	}
+	@DeleteMapping("upcomingmatch/{id}")
+	public UpcomingMatch deleteAnUpcomingMatch(@PathVariable("id")int upcomingMatchId){
+		   return upcomingMatchService.delete(upcomingMatchId);
+		}
+	
+	
+	
+}

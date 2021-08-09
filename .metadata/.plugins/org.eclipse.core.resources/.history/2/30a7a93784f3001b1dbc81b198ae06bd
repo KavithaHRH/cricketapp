@@ -1,0 +1,29 @@
+package com.cricapp;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.cricapp.entities.UpcomingMatch;
+import com.cricapp.service.UpcomingMatchService;
+
+@SpringBootApplication
+public class CrickappApplication implements CommandLineRunner{
+	@Autowired
+    private UpcomingMatchService upcomingMatchService;
+	public static void main(String[] args) {
+		SpringApplication.run(CrickappApplication.class, args);
+	}
+
+	@Override
+	public void run(String... args) throws Exception {
+		upcomingMatchService.save(new UpcomingMatch("IndiaVSAustralia", "India", "Aus", "26-12-2012"));
+		upcomingMatchService.save(new UpcomingMatch("SrilankaVSAustralia", "Srilanka", "Aus", "14-08-2011"));
+		upcomingMatchService.save(new UpcomingMatch("IndiaVSPakistan", "India", "Pak", "21-11-2011"));
+		upcomingMatchService.save(new UpcomingMatch("NewzealandVSAfrica", "Newzealand", "Africa","15-04-2012"));
+		System.out.println("upcoming match record is saved");
+	}
+	
+
+}

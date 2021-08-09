@@ -1,0 +1,5 @@
+package com.example.recommendnService.controller;
+
+public @interface ApiOperation {
+
+}

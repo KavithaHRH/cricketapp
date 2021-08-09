@@ -1,0 +1,13 @@
+/* body{
+    width: 100%;
+    height: 100%;
+    
+} */
+
+body {
+    background-image: url("/home/ubuntu/Desktop/cmatch/CMatchesUI/src/app/login/image.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 1000px;
+  }

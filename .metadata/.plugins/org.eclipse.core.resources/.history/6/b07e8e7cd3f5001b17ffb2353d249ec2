@@ -1,0 +1,70 @@
+package com.stackroute.model;
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document
+public class Match {
+	@Id
+	private String id;
+	private String hostCountry;
+	private String team1;
+	private String team2;
+	private String date;
+
+	public Match(String matchId, String hostcountry, String team1, String team2, String date) {
+		super();
+		this.id = matchId;
+		this.hostCountry = hostcountry;
+		this.team1 = team1;
+		this.team2 = team2;
+		this.date = date;
+	}
+
+	public Match() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public String getMatchId() {
+		return id;
+	}
+
+	public void setMatchId(String matchId) {
+		this.id = matchId;
+	}
+
+	public String getHostcountry() {
+		return hostCountry;
+	}
+
+	public void setHostcountry(String hostCountry) {
+		this.hostCountry = hostCountry;
+	}
+
+	public String getTeam1() {
+		return team1;
+	}
+
+	public void setTeam1(String team1) {
+		this.team1 = team1;
+	}
+
+	public String getTeam2() {
+		return team2;
+	}
+
+	public void setTeam2(String team2) {
+		this.team2 = team2;
+	}
+
+	public String getDate() {
+		return date;
+	}
+
+	public void setDate(String date) {
+		this.date = date;
+	}
+	
+
+}

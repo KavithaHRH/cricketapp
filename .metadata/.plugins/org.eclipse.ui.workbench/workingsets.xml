@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1627803743501_0" label="Java Main Sources" name="Java Main Sources">
+<item elementID="=cricket_players/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=cricket_players/src\/main\/resources=/maven.pomderived=/true=/" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=cricket_players/target\/generated-sources\/annotations=/optional=/true=/=/maven.pomderived=/true=/=/ignore_optional_problems=/true=/=/m2e-apt=/true=/" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=User-Authentication/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=User-Authentication/src\/main\/resources=/maven.pomderived=/true=/" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=User-Authentication/target\/generated-sources\/annotations=/optional=/true=/=/maven.pomderived=/true=/=/ignore_optional_problems=/true=/=/m2e-apt=/true=/" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Recommendation-service/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Recommendation-service/src\/main\/resources=/maven.pomderived=/true=/" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Recommendation-service/target\/generated-sources\/annotations=/optional=/true=/=/maven.pomderived=/true=/=/ignore_optional_problems=/true=/=/m2e-apt=/true=/" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=favorite-service/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=favorite-service/src\/main\/resources=/maven.pomderived=/true=/" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=favorite-service/target\/generated-sources\/annotations=/optional=/true=/=/maven.pomderived=/true=/=/ignore_optional_problems=/true=/=/m2e-apt=/true=/" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=CPlayerZuulApi/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=CPlayerZuulApi/src\/main\/resources=/maven.pomderived=/true=/" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1627803743518_1" label="Java Test Sources" name="Java Test Sources">
+<item elementID="=cricket_players/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=cricket_players/target\/generated-test-sources\/test-annotations=/optional=/true=/=/maven.pomderived=/true=/=/ignore_optional_problems=/true=/=/m2e-apt=/true=/=/test=/true=/" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=User-Authentication/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=User-Authentication/target\/generated-test-sources\/test-annotations=/optional=/true=/=/maven.pomderived=/true=/=/ignore_optional_problems=/true=/=/m2e-apt=/true=/=/test=/true=/" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Recommendation-service/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Recommendation-service/target\/generated-test-sources\/test-annotations=/optional=/true=/=/maven.pomderived=/true=/=/ignore_optional_problems=/true=/=/m2e-apt=/true=/=/test=/true=/" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=favorite-service/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=favorite-service/target\/generated-test-sources\/test-annotations=/optional=/true=/=/maven.pomderived=/true=/=/ignore_optional_problems=/true=/=/m2e-apt=/true=/=/test=/true=/" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=CPlayerZuulApi/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1627807075325_3" label="cplayer_main_Module" name="cplayer_main_Module"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1627803750592_2" label="Window Working Set" name="Aggregate for window 1627803750591"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1627833513529_4" label="Window Working Set" name="Aggregate for window 1627833513529"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1627874650207_5" label="Window Working Set" name="Aggregate for window 1627874650207"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1627895650201_6" label="Window Working Set" name="Aggregate for window 1627895650201"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1627925030305_7" label="Window Working Set" name="Aggregate for window 1627925030305"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1627961732608_8" label="Window Working Set" name="Aggregate for window 1627961732608"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1627976196450_9" label="Window Working Set" name="Aggregate for window 1627976196450"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1628005231046_10" label="Window Working Set" name="Aggregate for window 1628005231046"/>
+</workingSetManager>

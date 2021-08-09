@@ -1,0 +1,32 @@
+package controller;
+
+import java.util.List;
+
+import org.hibernate.annotations.UpdateTimestamp;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
+
+import entities.UpcomingMatch;
+
+
+@RestController
+public class UpcomingMatchController {
+	
+	@Autowired
+	private RestTemplate restTemplate;
+	@GetMapping(path= "getanupcomingmatch")
+	
+	public UpcomingMatch getUpcomingMatch() {
+		UpcomingMatch upcomingMatch=restTemplate
+				.getForObject("http://localhost:8081/cicketmatch/upcomingmatch/1", UpcomingMatch.class);
+		return upcomingMatch;
+		}
+	
+}	

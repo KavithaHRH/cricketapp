@@ -1,0 +1,7 @@
+package com.favService.dto;
+
+public class favRequest {
+	private int matchid;
+	private String matchtitle;
+
+}

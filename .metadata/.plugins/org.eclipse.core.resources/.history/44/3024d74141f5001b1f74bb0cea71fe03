@@ -1,0 +1,3 @@
+server.servlet.context-path=/userapi
+server.port=8091
+

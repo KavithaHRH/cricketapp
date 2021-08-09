@@ -1,0 +1,5 @@
+package com.favService.controller;
+
+public class FavRestController {
+
+}

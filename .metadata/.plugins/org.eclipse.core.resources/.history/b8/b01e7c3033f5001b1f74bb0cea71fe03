@@ -1,0 +1,49 @@
+package controller;
+
+import java.util.List;
+
+import org.hibernate.annotations.UpdateTimestamp;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
+
+import com.cricapp.entities.UpcomingMatch;
+import com.cricapp.service.UpcomingMatchService;
+
+@RestController
+public class UpcomingMatchController {
+	
+	@Autowired
+	private RestTemplate restTemplate;
+	
+	public UpcomingMatchController(UpcomingMatchService upcomingMatchService) {
+		this.upcomingMatchService=upcomingMatchService;
+	}
+	@GetMapping("upcomingmatch")
+	public List<UpcomingMatch> getAll(){
+	   return upcomingMatchService.getAll();
+	}
+	@GetMapping("upcomingmatch/{id}")
+	public UpcomingMatch getAnUpcomingMatch(@PathVariable("id")int upcomingMatchId){
+	   return upcomingMatchService.getUpcomingMatchById(upcomingMatchId);
+	}
+	@DeleteMapping("upcomingmatch/{id}")
+	public UpcomingMatch deleteAnUpcomingMatch(@PathVariable("id")int upmatchId){
+		   return upcomingMatchService.delete(upmatchId);
+    }
+	
+	@PostMapping("upcomingmatch")
+	public UpcomingMatch addAnUpcomingMatch(@RequestBody UpcomingMatch upmatch ){
+		   return upcomingMatchService.save(upmatch);
+    }
+	
+	
+	
+	
+}

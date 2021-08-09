@@ -1,0 +1,20 @@
+package com.cricapp;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.cricapp.service.UpcomingMatchService;
+
+@SpringBootApplication
+public class CrickappApplication {
+	@Autowired
+    private UpcomingMatchService upcomingMatchService;
+	public static void main(String[] args) {
+		SpringApplication.run(CrickappApplication.class, args);
+	}
+
+	
+	
+
+}

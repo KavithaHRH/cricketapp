@@ -1,0 +1,25 @@
+package com.stackroute;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+
+import springfox.documentation.builders.ApiInfoBuilder;
+import springfox.documentation.service.ApiInfo;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
+@SpringBootApplication
+@EnableSwagger2
+public class RecommendationServiceApplication {
+	
+	public static void main(String[] args) {
+		SpringApplication.run(RecommendationServiceApplication.class, args);
+	}
+	
+	//@Bean
+	//public ApiInfo apiInfo() {
+		//ApiInfoBuilder infoBuilder = new ApiInfoBuilder();
+		//infoBuilder.title("recomendations").version("1.0");
+		
+		//return infoBuilder.build();
+	//}
+}

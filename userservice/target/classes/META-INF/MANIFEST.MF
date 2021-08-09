@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: ubuntu
+Build-Jdk: 11.0.5
+Implementation-Title: UserService
+Implementation-Version: 1.0
+Implementation-Vendor-Id: com.stackroute
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/cmatch/userservice
+Created-By: Maven Integration for Eclipse
+

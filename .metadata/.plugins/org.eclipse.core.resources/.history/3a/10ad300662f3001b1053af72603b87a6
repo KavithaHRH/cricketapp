@@ -1,0 +1,27 @@
+package com.cricapp.controller;
+
+import java.awt.PageAttributes.MediaType;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.cricapp.entities.UpcomingMatch;
+import com.cricapp.service.UpcomingMatchService;
+
+@RestController
+public class UpcomingMatchController {
+	private UpcomingMatchService upcomingMatchService;
+	@Autowired
+	public UpcomingMatchController(UpcomingMatchService upcomingMatchService) {
+		this.upcomingMatchService=upcomingMatchService;
+	}
+	@GetMapping(path="upcomingmatch")
+	public List<UpcomingMatch> getAll(){
+	return upcomingMatchService.getAll();
+	}
+	
+
+}

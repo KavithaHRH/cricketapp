@@ -1,0 +1,36 @@
+package com.favService.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
+
+import com.favService.entities.OldMatch;
+import com.favService.entities.favourite;
+
+@RestController
+public class FavRestController {
+	@Autowired
+	private RestTemplate restTemplate;
+	//matchid matchtitle
+	@GetMapping("fav")
+	public ResponseEntity<favourite> submitfavourite(@RequestParam("matchid")int matchid,
+			@RequestParam("matchtitle")String matchtitle){
+		
+		String oldMatchUrl = "http://localhost:8081/cicketmatch/oldmatch";
+		OldMatch oldMatch=restTemplate.getForObject(oldMatchUrl, OldMatch.class);
+		
+		favourite favo=new favourite();
+		favo.setFavListId("11");
+		favo.setMatchId(1);
+		favo.setOldMatch(oldMatch);
+		favo.setFavDate("26/02/2010");
+		favo.setUserId(1);
+		favo.setUserName("sam");
+		return ResponseEntity.ok(favo);
+
+	}
+
+}

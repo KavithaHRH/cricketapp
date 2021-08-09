@@ -1,0 +1,5 @@
+package com.cricapp.service;
+
+public class UpcomingMatchNotFoundException extends RuntimeException{
+
+}

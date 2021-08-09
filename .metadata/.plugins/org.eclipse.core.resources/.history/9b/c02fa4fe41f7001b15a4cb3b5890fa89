@@ -1,0 +1,12 @@
+package com.favService.entities;
+
+import java.util.Date;
+
+public class favourite {
+	private int matchId;
+	private String matchName;
+	private Date favDate;
+	private OldMatch oldMatch;
+	
+
+}

@@ -1,0 +1,36 @@
+main is org.apache.maven.cli.MavenCli from plexus.core
+[plexus.core]
+load /opt/sts-4.5.0.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923/
+load /opt/sts-4.5.0.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923/jars/maven-core-3.6.3.jar
+load /opt/sts-4.5.0.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923/jars/maven-model-3.6.3.jar
+load /opt/sts-4.5.0.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923/jars/maven-settings-3.6.3.jar
+load /opt/sts-4.5.0.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923/jars/maven-settings-builder-3.6.3.jar
+load /opt/sts-4.5.0.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923/jars/maven-builder-support-3.6.3.jar
+load /opt/sts-4.5.0.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923/jars/maven-repository-metadata-3.6.3.jar
+load /opt/sts-4.5.0.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923/jars/maven-artifact-3.6.3.jar
+load /opt/sts-4.5.0.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923/jars/maven-plugin-api-3.6.3.jar
+load /opt/sts-4.5.0.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923/jars/maven-model-builder-3.6.3.jar
+load /opt/sts-4.5.0.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923/jars/maven-resolver-provider-3.6.3.jar
+load /opt/sts-4.5.0.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923/jars/maven-resolver-api-1.4.1.jar
+load /opt/sts-4.5.0.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923/jars/maven-resolver-spi-1.4.1.jar
+load /opt/sts-4.5.0.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923/jars/maven-resolver-util-1.4.1.jar
+load /opt/sts-4.5.0.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923/jars/maven-shared-utils-3.2.1.jar
+load /opt/sts-4.5.0.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923/jars/commons-io-2.5.jar
+load /opt/sts-4.5.0.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923/jars/org.eclipse.sisu.inject-0.3.4.jar
+load /opt/sts-4.5.0.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923/jars/guice-4.2.1-no_aop.jar
+load /opt/sts-4.5.0.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923/jars/guava-25.1-android.jar
+load /opt/sts-4.5.0.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923/jars/error_prone_annotations-2.1.3.jar
+load /opt/sts-4.5.0.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923/jars/j2objc-annotations-1.1.jar
+load /opt/sts-4.5.0.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923/jars/animal-sniffer-annotations-1.14.jar
+load /opt/sts-4.5.0.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923/jars/plexus-utils-3.2.1.jar
+load /opt/sts-4.5.0.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923/jars/plexus-component-annotations-2.1.0.jar
+load /opt/sts-4.5.0.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923/jars/commons-lang3-3.8.1.jar
+load /opt/sts-4.5.0.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923/jars/maven-embedder-3.6.3.jar
+load /opt/sts-4.5.0.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923/jars/jsr250-api-1.0.jar
+load /opt/sts-4.5.0.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923/jars/plexus-sec-dispatcher-1.4.jar
+load /opt/sts-4.5.0.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923/jars/plexus-cipher-1.7.jar
+load /opt/sts-4.5.0.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923/jars/commons-cli-1.4.jar
+load /opt/sts-4.5.0.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923/jars/maven-compat-3.6.3.jar
+load /opt/sts-4.5.0.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923/jars/plexus-interpolation-1.25.jar
+load /opt/sts-4.5.0.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923/jars/wagon-provider-api-3.3.4.jar
+load /opt/sts-4.5.0.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923/jars/org.eclipse.sisu.plex
